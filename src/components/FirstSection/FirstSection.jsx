@@ -6,7 +6,7 @@ function App() {
   return (
     <section className="section whoAmI" id="who-am-i">
       <div className="foto">
-        <img src="../../../public/imgs/fallout-scream.jpg" alt="" className="minha-foto" />
+        <img src="imgs/fallout-scream.jpg" alt="" className="minha-foto" />
       </div>
       <div className="dados">
         <h2>Quem sou eu?</h2>

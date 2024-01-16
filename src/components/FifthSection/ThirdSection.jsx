@@ -30,7 +30,7 @@ function App() {
         </div>
       </div>
 
-      <img src="../../../public/imgs/signboard.png" alt="placa com a escrita 'thank you'" />
+      <img src="imgs/signboard.png" alt="placa com a escrita 'thank you'" />
     </section>
   );
 }

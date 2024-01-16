@@ -8,7 +8,7 @@ export default function Header() {
 
         <div className="svg-icons">
           <a href="https://github.com/guibaumer" target="_blank" rel="noopener noreferrer">
-            <img src="../../../public/svgs/github-142-svgrepo-com.svg" alt="logo do github" />
+            <img src="svgs/github-142-svgrepo-com.svg" alt="logo do github" />
           </a>
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a
@@ -16,7 +16,7 @@ export default function Header() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="../../../public/svgs/linkedin-round-svgrepo-com.svg" alt="logo do linkedin" />
+            <img src="svgs/linkedin-round-svgrepo-com.svg" alt="logo do linkedin" />
           </a>
         </div>
 

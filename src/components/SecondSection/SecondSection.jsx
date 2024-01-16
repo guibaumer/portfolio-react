@@ -15,7 +15,13 @@ function App() {
       </div>
       <p className="p-workana">
         {/* eslint-disable-next-line jsx-a11y/control-has-associated-label */}
-        <a href="https://www.workana.com/freelancer/08f2df32c124141841f70baf2c123efd" target="_blank" rel="noreferrer"><img src="../../../public/svgs/workana.svg" alt="" className="workana-logo" /></a>
+        <a
+          href="https://www.workana.com/freelancer/08f2df32c124141841f70baf2c123efd"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src="svgs/workana.svg" alt="" className="workana-logo" />
+        </a>
       </p>
     </section>
   );
