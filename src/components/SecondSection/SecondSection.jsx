@@ -2,7 +2,7 @@ import React from 'react';
 
 import './SecondSection.css';
 
-function App() {
+function SecondSection() {
   return (
     <section className="experience-section" id="experience">
       <h2>EXPERIÊNCIA PROFISSIONAL</h2>
@@ -27,4 +27,4 @@ function App() {
   );
 }
 
-export default App;
+export default SecondSection;

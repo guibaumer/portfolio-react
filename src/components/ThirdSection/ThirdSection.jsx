@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './SecondSection.css';
+import './ThirdSection.css';
 
-function App() {
+function ThirdSection() {
   return (
     <section className="section skills background-degrade" id="skills-id">
       <h2>Habilidades</h2>
@@ -133,4 +133,4 @@ function App() {
   );
 }
 
-export default App;
+export default ThirdSection;

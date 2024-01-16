@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './SecondSection.css';
+import './FourthSection.css';
 
-function App() {
+function FourthSection() {
   const showText = (el, proj) => {
     const { display } = document.querySelector(`.${el}`).style;
     if (display === 'flex') {
@@ -117,4 +117,4 @@ function App() {
   );
 }
 
-export default App;
+export default FourthSection;

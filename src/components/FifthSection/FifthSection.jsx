@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './SecondSection.css';
+import './FifthSection.css';
 
-function App() {
+function FifthSection() {
   return (
     <section className="section contato" id="contato-id">
 
@@ -35,4 +35,4 @@ function App() {
   );
 }
 
-export default App;
+export default FifthSection;

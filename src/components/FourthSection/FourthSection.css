@@ -141,28 +141,28 @@ button.floating:hover {
   padding: .6rem;
 }
 .visitar-site:hover {
-  background-color: #b1b1b1 !important;
-  color: #030303 !important;
+  background-color: #b1b1b1;
+  color: #030303;
   transition: .5s;
 }
 .info-button {
   border-radius: 0px;
   font-size: 17px;
-  background-color: #696969;
+  background-color: var(--azul);
   color: #fffbff;
   border-color: #696969;
+  border-color: var(--azul);
 }
 .info-button:hover {
-  border-color: #b1b1b1;
+  background-color: #7f919c;
+  border-color: #7f919c;
+  color: #d7d7d7;
   cursor: pointer;
 }
 
 .grid-projects {
   justify-items: center;
-  /* width: 96%; */
   width: 100%;
   display: grid;
-  /* grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); */
-  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
   grid-template-columns: 1fr;
 }
