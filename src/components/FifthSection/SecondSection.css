@@ -1,0 +1,60 @@
+.contato img {
+  width: 150px;
+  margin-top: 3rem;
+}
+section.section.contato {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-shadow {
+  /* width: fit-content; */
+  width: 93%;
+  max-width: 450px;
+  padding: 2rem;
+  box-shadow: 0px 0px 4px var(--cinza);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cinza);
+}
+
+.contato h2 {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.contato p {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.contato a {
+  display: block;
+  text-align: center;
+  width: 100px;
+  padding: .5rem;
+  background-color: #000000ef;
+  color: #606060;
+  margin: .5rem;
+  border-radius: 2rem;
+  border: .3rem solid #000;
+}
+.contato a:hover {
+  background: none;
+  transition: .6s;
+  color: #000;
+  background-color: var(--amarelo-detalhes);
+}
+.contato div {
+  display: flex;
+  margin: 1.1rem auto;
+  justify-content: center;
+  align-items: center;
+}
+.negrito {
+  font-weight: bold;
+  cursor: none;
+  display: block;
+}

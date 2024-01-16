@@ -1,0 +1,171 @@
+/* MEDIA QUERIES */
+@media (min-width:350px) {
+  :root {
+      --variavel: 310px;
+  }
+  main h1 {
+      font-size: 8rem;
+      line-height: 8rem;
+  }
+  section.home-section p.line {
+      font-size: 1.6rem;
+  }
+  span.material-symbols-outlined {
+      font-size: 3.5rem;
+      margin-right: 1rem;
+  }
+  img.svg {
+      width: 6rem;
+  }
+  .projetos div.container {
+      padding: 2rem;
+  }
+
+}
+@media (min-width: 576px) {
+  .nav-menu {
+      position: fixed;
+      width: 100%;
+      padding: 1rem;
+  }
+  span.material-symbols-outlined {
+      font-size: 3.5rem;
+      margin-right: 1rem;
+  }
+  .projetos div.container {
+      padding: 2rem;
+      max-width: 550px;
+  }
+  div.grid-projects {
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+  .home-section h1 {
+    font-size: 8rem;
+    line-height: 8rem;
+  }
+
+}
+@media (min-width: 768px) {
+  section.whoAmI {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  div.foto {
+      text-align: center;
+  }
+  .minha-foto {
+      width: 30rem;
+      height: 30rem;
+  }
+  section.whoAmI {
+      text-align: center;
+  }
+  .whoAmI p {
+      /* max-width: 40rem; */
+  }
+  .whoAmI h2 {
+      text-align: center;
+      /* max-width: 40rem; */
+  }
+  .whoAmI div {
+      /* width: 50%; */
+  }
+  div.grid-projects {
+    width: 96%;
+  }
+  section.section h2 {
+    font-size: 5rem;
+    padding-bottom: 20px;
+  }
+  section.experience-section h2 {
+    font-size: 5rem;
+    padding-bottom: 20px;
+  }
+  section.contato h2 {
+    font-size: 5rem;
+    padding-bottom: 5px;
+  }
+}
+
+@media (min-width: 992px) {
+  .experience {
+  font-size: 21px;
+  }
+  .whoAmI {
+      background-size: cover;
+  }
+  section.whoAmI#who-am-i {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  section.whoAmI h2 {
+      max-width: 45rem;
+      font-family: var(--fonteh1);
+      font-size: 5rem;
+      font-weight: normal;
+  }
+  .whoAmI p {
+      max-width: 65rem;
+      /* 45rem */
+      font-size: 2.1rem;
+      text-align: justify;
+      margin-bottom: 1.5rem;
+  }
+  .whoAmI div {
+      width: 40%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .whoAmI div:nth-child(2) {
+      width: 60%;
+  }
+  .projetos h2 {
+      padding-top: 2rem;
+  }
+  .home-section h1 {
+    font-size: 10rem;
+    line-height: 10rem;
+}
+section.home-section p.line {
+  font-size: 1.8rem;
+}
+section.experience-section {
+  padding: 70px 0px 100px 0px;
+}
+}
+
+@media (min-width: 1200px) {
+  :root {
+      --variavel: 340px;
+  }
+  .home-section p {
+      font-size: 1.9rem;
+  }
+  .nav-menu ul.not-hidden-ul {
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      position: fixed;
+      right: 0;
+      padding: 1rem;
+      font-family: 'Work Sans';
+  }
+  span.material-symbols-outlined-menu {
+      display: none;
+  }
+  .nav-menu ul li {
+      margin-right: 1.5rem;
+  }
+  .nav-menu ul {
+      display: flex;
+  }
+  img.minha-foto {
+      width: 40rem;
+      height: 40rem;
+  }
+}
