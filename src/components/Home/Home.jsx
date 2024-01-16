@@ -16,7 +16,7 @@ export default function Home() {
         <img className="svg" src="../../../public/svgs/css3-02-svgrepo-com.svg" alt="" />
         <img className="svg" src="../../../public/svgs/react-logo-programming-2-svgrepo-com.svg" alt="" />
       </div>
-      <a href="#who-am-i"><img src="../../../public/svgs/angles-down-solid.svg" alt="flecha para baixo" className="arrow-down" /></a>
+      <a href="#who-am-i"><img src="public/svgs/angles-down-solid.svg" alt="flecha para baixo" className="arrow-down" /></a>
     </section>
   );
 }
