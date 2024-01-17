@@ -10,7 +10,7 @@ section.whoAmI {
   text-indent: 0rem;
 }
 div.dados {
-  text-align: justify;
+  text-align: left;
   padding: 0;
   max-width: 500px;
 }

@@ -83,7 +83,7 @@ function FourthSection() {
                 {project.tags && (project.tags).map((tag) => (
                   <img
                     className={`tech-svg ${(tag === 'javascript.svg' || tag === 'react-logo.svg') && 'js-svg'}`}
-                    key={project.name}
+                    key={project.name + (Math.round(Math.random() * 1000))}
                     src={`svgs/${tag}`}
                     alt="tecnologia"
                   />

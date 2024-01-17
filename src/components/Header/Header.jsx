@@ -2,6 +2,9 @@ import React from 'react';
 import './Header.css';
 
 export default function Header() {
+  const close = () => {
+    document.querySelector('.hidden').style.display = 'none';
+  };
   return (
     <header>
       <nav className="nav-menu">
@@ -36,13 +39,13 @@ export default function Header() {
       <div className="hidden">
         <ul>
           {/* eslint-disable-next-line */}
-          <span onClick={() => document.querySelector('.hidden').style.display = 'none'} className="material-symbols-outlined material-symbols-outlined-close">
+          <span onClick={close} className="material-symbols-outlined material-symbols-outlined-close">
             close
           </span>
-          <li><a href="#who-am-i" className="link-desaparecer">Quem sou?</a></li>
-          <li><a href="#skills-id" className="link-desaparecer">Habilidades</a></li>
-          <li><a href="#projetos-id" className="link-desaparecer">Projetos</a></li>
-          <li><a href="#contato-id" className="link-desaparecer">Contato</a></li>
+          <li><a href="#who-am-i" className="link-desaparecer" onClick={close}>Quem sou?</a></li>
+          <li><a href="#skills-id" className="link-desaparecer" onClick={close}>Habilidades</a></li>
+          <li><a href="#projetos-id" className="link-desaparecer" onClick={close}>Projetos</a></li>
+          <li><a href="#contato-id" className="link-desaparecer" onClick={close}>Contato</a></li>
         </ul>
       </div>
     </header>

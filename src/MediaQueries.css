@@ -20,7 +20,9 @@
   .projetos div.container {
       padding: 2rem;
   }
-
+  div.info p {
+    max-width: 280px;
+  }
 }
 @media (min-width: 576px) {
   .nav-menu {
