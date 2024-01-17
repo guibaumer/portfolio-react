@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <section className="section home-section zoom-movimento background-degrade">
       <h1>
-        Guilherme
+        <span>Guilherme</span>
         <br />
-        Baumer
+        <span>Baumer</span>
       </h1>
       <p className="line typing-animation">Estudante de desenvolvimento web.</p>
       <a href="#who-am-i"><img src="svgs/angles-down-solid.svg" alt="flecha para baixo" className="arrow-down" /></a>
