@@ -15,7 +15,7 @@ function FifthSection() {
         <div>
           <a
             rel="noopener noreferrer"
-            href="https://www.linkedin.com/notifications/?filter=all"
+            href="https://www.linkedin.com/in/guilherme-baumer-125865275/"
             target="_blank"
           >
             Linkedin
