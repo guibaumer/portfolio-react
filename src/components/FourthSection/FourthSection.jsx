@@ -1,8 +1,9 @@
 import React from 'react';
 
 import './FourthSection.css';
+import { Link } from 'react-router-dom';
 
-function FourthSection() {
+function FourthSection({ projects, back }) {
   const showText = (el, proj) => {
     const { display } = document.querySelector(`.${el}`).style;
     if (display === 'flex') {
@@ -14,60 +15,6 @@ function FourthSection() {
     }
   };
 
-  const projects = [
-    {
-      name: 'Gerador de CPF',
-      description: 'Projeto desenvolvido com Javascript, HTML e CSS. Gera um CPF válido novo a cada clique.',
-      link: 'https://guibaumer.github.io/cursoUdemy/0-exercicios/exercicio13-criacpf/index.html',
-      src: 'miniatura/gera-cpfs.png',
-      id: '1',
-      tags: ['javascript.svg', 'html-5-svgrepo-com.svg', 'css-3-svgrepo-com.svg'],
-    },
-    {
-      name: 'Doceria',
-      description: 'Projeto desenvolvido com HTML, CSS e um pouco de Javascript. Criado para exercitar a capacidade de replicar designs e torná-los responsivos. Projeto do curso de CSS Avançado do HoraDeCodar.',
-      link: 'https://guibaumer.github.io/css-avancado/0-projeto-doceria/',
-      src: 'miniatura/doceria.png',
-      id: '2',
-      tags: ['html-5-svgrepo-com.svg', 'css-3-svgrepo-com.svg', 'javascript.svg'],
-    },
-    {
-      name: 'WhatsApp Clone',
-      description: 'Site desenvolvido com apenas HTML e CSS (responsivo, assim como os outros). Projeto de clone do WhatsApp do curso de CSS Avançado do HoraDeCodar.',
-      link: 'https://guibaumer.github.io/css-avancado/2-projeto-clone/meu-projeto/',
-      src: 'miniatura/whatsapp.png',
-      id: '3',
-      tags: ['html-5-svgrepo-com.svg', 'css-3-svgrepo-com.svg'],
-
-    },
-    {
-      name: 'Página do Google',
-      description: 'Site desenvolvido com apenas HTML e CSS. Projeto de clone da página de pesquisa do Google, do curso de CSS Avançado do HoraDeCodar.',
-      link: 'https://guibaumer.github.io/css-avancado/3-projeto-google/meu-projeto/',
-      src: 'miniatura/google-clone.png',
-      id: '4',
-      tags: ['html-5-svgrepo-com.svg', 'css-3-svgrepo-com.svg'],
-
-    },
-    {
-      name: 'Gerador de Senha',
-      description: 'Site desenvolvido com HTML, CSS e Javascript. Gera uma senha conforme selecionadas as opções.',
-      link: 'https://guibaumer.github.io/cursoUdemy/0-exercicios/exercicio14-senha/index.html',
-      src: 'miniatura/gerador-de-senhas.png',
-      id: '5',
-      tags: ['javascript.svg', 'html-5-svgrepo-com.svg', 'css-3-svgrepo-com.svg'],
-
-    },
-    {
-      name: 'Lista de Tarefas - React',
-      description: 'Site desenvolvido com o framework React. Ele armazena as tarefas no local storage.',
-      link: 'https://guibaumer.github.io/lista-local_storage',
-      src: 'miniatura/lista-tarefas.png',
-      id: '6',
-      tags: ['react-logo.svg', 'html-5-svgrepo-com.svg', 'css-3-svgrepo-com.svg'],
-
-    },
-  ];
   return (
     <section className="section projetos" id="projetos-id">
       <h2>Projetos</h2>
@@ -112,6 +59,12 @@ function FourthSection() {
         ))}
 
       </div>
+
+      {back ? (
+        <Link className="other-projects go-back" to="/">VOLTAR</Link>
+      ) : (
+        <Link className="other-projects" to="/other-projects">VER MAIS PROJETOS</Link>
+      )}
 
     </section>
   );

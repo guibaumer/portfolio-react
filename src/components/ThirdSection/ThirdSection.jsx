@@ -13,7 +13,7 @@ function ThirdSection() {
           <h4 className="nome">
             <a
               rel="noopener noreferrer"
-              href="https://www.cursoemvideo.com/curso/javascript/"
+              href="https://www.cursoemvideo.com/validacao-de-certificado/?codigo=93F84-6C61-3"
               target="_blank"
             >
               Javascript (40 horas)
@@ -23,21 +23,22 @@ function ThirdSection() {
           <p className="fornecedor">- Curso Em Vídeo</p>
           <p className="estado">Completo</p>
         </div>
+
         <div className="curso pt-0">
           <p className="tipo">Curso</p>
           <h4 className="nome">
             <a
               rel="noopener noreferrer"
-              href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-3-de-5-40-horas/"
+              href="https://certificates.cs50.io/5ea43d27-98bf-456b-ada9-7d2bdba3b623.pdf?size=letter"
               target="_blank"
             >
-              HTML e CSS - módulo 3 (40 horas)
+              CS50: Introduction to computer science
             </a>
-
           </h4>
-          <p className="fornecedor">- Curso Em Vídeo</p>
+          <p className="fornecedor">- Harvard University</p>
           <p className="estado">Completo</p>
         </div>
+
         <div className="curso pt-0">
           <p className="tipo">Curso</p>
           <h4 className="nome">
@@ -53,6 +54,7 @@ function ThirdSection() {
           <p className="fornecedor">- Curso Em Vídeo</p>
           <p className="estado">Completo</p>
         </div>
+
         <div className="curso">
           <p className="tipo">Curso</p>
           <h4 className="nome">
@@ -68,6 +70,7 @@ function ThirdSection() {
           <p className="fornecedor">- Curso Em Vídeo</p>
           <p className="estado">Completo</p>
         </div>
+
         <div className="curso pt-0 incompleto">
           <p className="tipo">Curso</p>
           <h4 className="nome">
@@ -81,14 +84,15 @@ function ThirdSection() {
 
           </h4>
           <p className="fornecedor">- Udemy</p>
-          <p className="estado cursando">Cursando (50%)</p>
+          <p className="estado cursando">Cursando (75%)</p>
         </div>
+
         <div className="curso pt-0">
           <p className="tipo">Curso</p>
           <h4 className="nome">
             <a
               rel="noopener noreferrer"
-              href="https://www.udemy.com/course/html5-e-css3-tecnicas-avancadas-com-flexbox-e-3-projetos/"
+              href="https://www.udemy.com/certificate/UC-9f632b64-a1db-42f9-af96-dd48adb53267/"
               target="_blank"
             >
               HTML e CSS avançados (10 horas)
@@ -98,12 +102,13 @@ function ThirdSection() {
           <p className="fornecedor">- Udemy</p>
           <p className="estado">Completo</p>
         </div>
+
         <div className="curso pt-0 completo">
           <p className="tipo">Curso</p>
           <h4 className="nome">
             <a
               rel="noopener noreferrer"
-              href="https://www.udemy.com/course/react-do-zero-a-maestria-c-hooks-router-api-projetos/"
+              href="https://www.udemy.com/certificate/UC-8b364d10-2a82-4073-babf-1386719ac645/"
               target="_blank"
             >
               React do Zero a Maestria (30 horas)
@@ -113,6 +118,7 @@ function ThirdSection() {
           <p className="fornecedor">- Udemy</p>
           <p className="estado">Completo</p>
         </div>
+
         <div className="curso completo">
           <p className="tipo">Curso</p>
           <h4 className="nome">
@@ -128,6 +134,7 @@ function ThirdSection() {
           <p className="fornecedor">- Curso Em Vídeo</p>
           <p className="estado">Completo</p>
         </div>
+
       </section>
     </section>
   );

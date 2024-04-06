@@ -34,4 +34,5 @@ div.foto {
   height: 25rem;
   border-radius: 50%;
   box-shadow: 0px 0px 4px black;
+  object-fit: cover;
 }
