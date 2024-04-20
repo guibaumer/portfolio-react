@@ -27,6 +27,14 @@ export default function Projects() {
       id: '3',
       tags: ['html.svg', 'css.svg'],
     },
+    {
+      name: 'Gerador de Senha',
+      description: 'Site desenvolvido com HTML, CSS e Javascript. Gera uma senha conforme selecionadas as opções.',
+      link: 'https://guibaumer.github.io/cursoUdemy/0-exercicios/exercicio14-senha/index.html',
+      src: 'miniatura/gerador-de-senhas.png',
+      id: '5',
+      tags: ['javascript.svg', 'html.svg', 'css.svg'],
+    },
   ];
 
   return (
