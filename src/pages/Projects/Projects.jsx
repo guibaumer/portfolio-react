@@ -35,6 +35,14 @@ export default function Projects() {
       id: '5',
       tags: ['javascript.svg', 'html.svg', 'css.svg'],
     },
+    {
+      name: 'IMDb',
+      description: 'Consumo da API da Internet Movie Database. Criado com React.js.',
+      link: 'https://guibaumer-imdb.netlify.app/',
+      src: 'miniatura/imdb.png',
+      id: '6',
+      tags: ['react-logo.svg'],
+    },
   ];
 
   return (

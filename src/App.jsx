@@ -30,11 +30,19 @@ function App() {
       tags: ['Next.js.svg'],
     },
     {
+      name: 'Arkanoid - TS',
+      description: 'Um jogo arkanoid desenvolvido completamente por mim com Next.js e Typescript. Não está completo, falta bastante coisa, mas functiona.',
+      link: 'https://arkanoid-typescript.netlify.app',
+      src: 'miniatura/arkanoid.png',
+      id: '3',
+      tags: ['Next.js.svg'],
+    },
+    {
       name: 'Lista de Contatos - React',
       description: 'Frontend desenvolvido com Next.JS e API criada com Express. A API está conectada ao MongoDB.',
       link: 'https://lista-de-contatos-next.netlify.app/',
       src: 'miniatura/contatos.png',
-      id: '3',
+      id: '4',
       tags: ['Next.js.svg'],
     },
     {
@@ -42,16 +50,8 @@ function App() {
       description: 'Projeto de um portfolio um restaurante. Possui um CSS bem trabalhado e ícones de redes sociais que funcionam.',
       link: 'https://guibaumer.github.io/Sites/restaurante/',
       src: 'miniatura/restaurante.png',
-      id: '4',
-      tags: ['html.svg', 'css.svg', 'javascript.svg'],
-    },
-    {
-      name: 'IMDb',
-      description: 'Consumo da API da Internet Movie Database. Criado com React.js.',
-      link: 'https://guibaumer-imdb.netlify.app/',
-      src: 'miniatura/imdb.png',
       id: '5',
-      tags: ['react-logo.svg'],
+      tags: ['html.svg', 'css.svg', 'javascript.svg'],
     },
     {
       name: 'Lista de Tarefas - React',
